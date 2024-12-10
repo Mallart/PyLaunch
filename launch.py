@@ -1,6 +1,8 @@
 from inspect import signature
 from functions import *
 
+# By Mallart
+# https://github.com/Mallart/PyLaunch/
 
 # Display all options and their associated functions
 def pres_options(opt_func):
