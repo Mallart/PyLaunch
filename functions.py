@@ -4,10 +4,13 @@
 def modulo(expr:str, mod:int):
     return eval(expr) % mod
 
+def evaluate(expr:str):
+    return eval(expr)
+
 functions = [
     # other way to add your functions
     # { "option": "Compute expression and its modulo\n",    "func":modulo },
-    { "option": "Evaluate expression\n",                  "func":eval },
+    { "option": "Evaluate expression\n",                  "func":evaluate },
 ]
 
 # add an entry to the avaiable functions (for the launcher)
